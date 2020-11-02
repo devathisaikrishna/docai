@@ -1,0 +1,190 @@
+/*********************************/
+/****** Validation style *********/
+/*********************************/
+.cmn_input__2 + .error {
+	color: red;
+	padding-top: 4px;
+}
+.my_login_btn {
+	display: inline-grid;
+	grid-template-columns: auto 5px auto;
+	column-gap: 18px;
+}
+.error_show_notification {
+	color: red;
+	padding-bottom: 10px;
+}
+.success_show_notification {
+	color: #66bb6a;
+	padding-bottom: 10px;
+}
+
+/*********************************/
+/********* Page Not Found *********/
+/*********************************/
+.error_bg {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	margin-top: 72px;
+}
+.wrapper .breadcrumbs {
+	margin-top: 0px;
+}
+
+/*********************************/
+/********** Custom Select box ********/
+/*********************************/
+.Select_box_table {
+	font-size: 13px;
+	height: 35px;
+	min-height: 35px;
+	padding: 5px 5px;
+	cursor: pointer;
+}
+
+/*********************************/
+/************ Plan box *********/
+/*********************************/
+.plan .box {
+	padding: 50px 40px;
+	box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+	background: #fff;
+	height: 100%;
+	border-top: 4px solid #fff;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.plan h3 {
+	font-weight: 500;
+	margin-bottom: 15px;
+	font-size: 20px;
+	color: var(--color2);
+}
+.plan h3 {
+	font-weight: 500;
+	margin-bottom: 15px;
+	font-size: 20px;
+	color: var(--color2);
+}
+.plan h4 {
+	font-size: 48px;
+	color: var(--color2);
+	font-weight: 400;
+	font-family: "Jost", sans-serif;
+	margin-bottom: 25px;
+}
+.plan h4 sup {
+	font-size: 28px;
+}
+.plan h4 span {
+	color: var(--color1);
+	font-size: 18px;
+	display: block;
+}
+.plan ul {
+	padding: 15px 0;
+	list-style: none;
+	color: #999;
+	text-align: left;
+	line-height: 20px;
+}
+.plan ul li {
+	padding: 10px 0 10px 0px;
+	position: relative;
+	display: grid;
+	grid-template-columns: 30px 1fr;
+}
+.plan ul i {
+	color: #28a745;
+	font-size: 24px;
+}
+.plan .buy-btn {
+	display: inline-block;
+	padding: 12px 35px;
+	border-radius: 50px;
+	color: var(--color1);
+	transition: none;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "Jost", sans-serif;
+	transition: 0.3s;
+	border: 1px solid var(--color1);
+}
+.plan ul .na {
+	color: #ccc;
+}
+.plan ul .na i {
+	color: #ccc;
+}
+
+/*********************************/
+/******** empty_card ************/
+/*********************************/
+.empty_card {
+	text-align: center;
+}
+.empty_card img {
+	width: 40%;
+}
+.empty_card h3 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/*********************************/
+/******** Search Box  ************/
+/*********************************/
+.search_icons_add {
+	position: relative;
+}
+.search_icons_add::after {
+	content: "\e090";
+	font-family: "simple-line-icons";
+	font-size: 22px;
+	font-weight: 600;
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translate(0px, -50%);
+}
+.search_icons_add input {
+	padding-left: 47px;
+	height: auto;
+	padding: 11px 40px;
+}
+
+.my_content {
+	background-color: #fff;
+}
+.my_content .stretch-card > .card {
+	box-shadow: 0px 0px 8px #dcdcdc;
+}
+.bg-grey {
+	background: #ecf0f4;
+}
+
+/*********************************/
+/******** Block ui css  ************/
+/*********************************/
+
+.block-ui-message-container {
+    left: 50% !important;
+}
+.my_content .stretch-card > .card{
+    box-shadow:0px 0px 8px #dcdcdc ;
+}
+.not_found {
+    background: #d6d7d9;
+    border-radius: 20px;
+    padding: 11px 20px;
+    font-weight: 600;
+    margin-top: 7px;
+}
+.block-ui-overlay {
+    opacity: 1 !important;
+}
